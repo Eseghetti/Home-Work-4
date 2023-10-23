@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* estilos del body */
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E11364;
+    display: flex;
+    flex-direction: column;
+    
+    /* 
+    justify-content: center; 
+    */
+}
+
+h1{
+    background-color: #BC105C;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    color: #fff;
+    font-size: 4rem;
+    height: auto;
+    margin: 20px 70px;
+    padding: 0;
+    text-align: center;
+}
+
+.contenedor{
+    background-color: #BC105C;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 20px 70px;
+    padding: 0 30px;
+    border-radius: 10px;
+}
+
+.game-cont{
+    /* width: 95%; */
+    height: auto;
+    border-radius:10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 20px 15px 15px 20px;
+    padding: 0;
+    /* align-content: center; */
+}
+
+.game-cont h3{
+    font-size: 1.5rem;
+    color: #BC105C;
+    text-align: end;
+    border-bottom: dotted #BC105C;
+    margin: 30px 10px 10px 20px;
+    padding: 10px;
+}
+
+.game-cont img{
+    margin: 10px 10px 5px 10px;
+    padding: 0;
+}
+
+.game-cont p{
+    font-size: .75rem;
+    font-weight: 400;
+    color: #000;
+    margin: 10px 10px;
+}
+
+a{
+    display: block;
+    width: 120px;
+    /* height: auto; */
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+    background-color: #2A891F;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}
+
+a:hover{
+    background-color: #BC105C;
+}
+
+
+/* estilos del footeer */
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E96093;
+    color: #fff;
+    font-size: .75rem;
+    text-align: center;
+    /* align-items: center; */
+    height: 50px;
+    margin: 20px 70px;
+    padding: 0 30px;
+    border-radius: 10px;
+}
