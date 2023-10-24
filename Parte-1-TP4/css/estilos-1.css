@@ -2,14 +2,25 @@
 
 /* estilos del body */
 body{
-    font-family: 'Roboto', sans-serif;
     background-color: #E11364;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.contenedor{
+    background-color: #BC105C;
+    border-radius: 10px;
+    color: #fff;
     display: flex;
     flex-direction: column;
-    
-    /* 
-    justify-content: center; 
-    */
+    font-size: .75rem;
+    justify-content: center;
+    margin: 20px 70px;
+    padding: 0 10px 50px 10px;
+}
+
+.contenedor h2{
+    margin-top: 25px;
 }
 
 h1{
@@ -17,42 +28,31 @@ h1{
     border-left: 3px solid #fff;
     border-right: 3px solid #fff;
     color: #fff;
-    font-size: 4rem;
-    height: auto;
-    margin: 20px 70px;
+    font-size: 2rem;
+    height: 60px;
+    margin: 30px 70px;
     padding: 0;
     text-align: center;
 }
 
-.contenedor{
-    background-color: #BC105C;
-    color: #fff;
-    font-size: 1.2rem;
-    margin: 20px 70px;
-    padding: 0 30px;
-    border-radius: 10px;
-}
-
 .game-cont{
-    /* width: 95%; */
-    height: auto;
-    border-radius:10px;
     background-color: #fff;
+    border-radius:10px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    margin: 20px 15px 15px 20px;
+    height: auto;
+    margin: 5px 0px;
     padding: 0;
-    /* align-content: center; */
+    width: 100%;
 }
 
 .game-cont h3{
-    font-size: 1.5rem;
-    color: #BC105C;
-    text-align: end;
     border-bottom: dotted #BC105C;
-    margin: 30px 10px 10px 20px;
-    padding: 10px;
+    color: #BC105C;
+    font-size: 1rem;
+    margin: 30px 10px 10px 10px;
+    padding: 0px;
+    text-align: end;
 }
 
 .game-cont img{
@@ -61,26 +61,27 @@ h1{
 }
 
 .game-cont p{
+    color: #000;
     font-size: .75rem;
     font-weight: 400;
-    color: #000;
     margin: 10px 10px;
 }
 
 a{
-    display: block;
-    width: 120px;
-    /* height: auto; */
-    border-radius: 5px;
-    text-align: center;
+    align-items: center;
     align-self: center;
     background-color: #2A891F;
-    font-size: 1.1rem;
+    border-radius: 5px;
     color: #fff;
+    display: block;
+    font-size: 1.1rem;
     font-weight: 700;
-    text-decoration: none;
-    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 0px;
     padding: 10px 10px 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
 }
 
 a:hover{
@@ -97,7 +98,6 @@ footer{
     color: #fff;
     font-size: .75rem;
     text-align: center;
-    /* align-items: center; */
     height: 50px;
     margin: 20px 70px;
     padding: 0 30px;
