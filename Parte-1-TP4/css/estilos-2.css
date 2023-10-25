@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    transition: top 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  header h1{
+    text-align: center;
+  }
+
+  header:hover {
+    top: 0;
+  }
+  
+  .content {
+    margin-top: 100px; /* Ajusta este valor para evitar que el contenido se solape con el encabezado */
+  }
