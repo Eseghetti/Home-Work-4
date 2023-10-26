@@ -1,28 +1,52 @@
 body {
-    margin: 0;
-    padding: 0;
-  }
+  padding: 0%;
+  border: 0%;
+}
 
 header {
-    align-items: center;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    transition: top 0.3s;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
+  border: 1px solid;
+  text-align: center;
+}
 
-  header h1{
-    text-align: center;
-  }
+section {
+  border: 1px solid;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
-  header:hover {
-    top: 0;
-  }
-  
-  .content {
-    margin-top: 100px; /* Ajusta este valor para evitar que el contenido se solape con el encabezado */
-  }
+h2, a {
+  text-align: center;
+}
+
+.game-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.game-cont h3, .game-cont div, .game-cont img, .game-cont p, .game-cont a {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+/* Estilos adicionales para hacer los enlaces más visibles */
+a:hover {
+  color: red;
+}
+
+footer {
+  text-align: center;
+}

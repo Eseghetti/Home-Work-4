@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0 5% 0 5%;
+}
+
+/* header {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  transition: top 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+} */
+
+header h1 {
+  text-align: center;
+}
+
+header:hover {
+  top: 0;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between; /* Distribuye las tarjetas en la fila */
+  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea si no caben en el ancho de la pantalla */
+}
+
+h2{
+  text-align: ce;
+}
+
+.game-cont {
+  flex: 0 0 calc(30% - 20px); /* Establece el ancho fijo para cada tarjeta y tiene en cuenta el espacio entre las tarjetas */
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction:column;
+}
+
+.game-cont img {
+  max-width: 100%;
+}
+
+.game-cont h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.game-cont p {
+  margin: 10px 0;
+  flex-grow: 1; /* Permite que el texto dentro de la tarjeta ocupe el espacio restante */
+}
+
+.game-cont a {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  margin-top: auto; /* Hace que el botón esté siempre en la parte inferior */
+  text-align: center;
+  display: block; /* Cambia el botón a un elemento de bloque para que ocupe todo el ancho de la tarjeta */
+}
+
+.game-cont a:hover {
+  background-color: #0056b3;
+}
