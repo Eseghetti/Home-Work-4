@@ -1,0 +1,80 @@
+body {
+  padding: 0%;
+  border: 0%;
+}
+
+header {
+  border: 1px solid;
+  text-align: center;
+}
+section {
+    flex-direction: row;
+    border: 1px solid;
+
+}
+section > div {
+  margin: 5px;
+  display: flex;
+  align-items: top;
+  width: 100%;
+  height: 100%;
+  max-width: 350px;
+  max-height:none;
+}
+
+h2, a {
+  text-align: center;
+}
+
+.game-cont {
+  display: flex;  
+  flex-direction: column;
+  margin: 10px;
+  justify-content:flex-start;
+  width: 300px;
+  position: relative;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border: 1px solid;
+  margin:10px;
+  padding: 10px;
+  border: 1px solid;
+
+
+}
+
+.game-cont h3{
+  text-align: center;
+}
+
+.game-cont div, .game-cont img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  text-align: start;
+  }
+  .game-cont p{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+.game-cont a{
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  align-items:end;
+  border: 1px solid;
+  padding: 5px;
+  position: absolute;
+  bottom: -1px;
+  margin-left: 100px;
+}
+
+a:hover {
+  color: red;
+}
+
+footer {
+  text-align: center;
+}
