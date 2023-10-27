@@ -8,12 +8,9 @@ header {
   text-align: center;
 }
 
-section {
+section h2 {
   border: 1px solid;
   margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
 }
 
@@ -21,15 +18,36 @@ h2, a {
   text-align: center;
 }
 
-.game-cont {
+section {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-cont div {
+  border: 2px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   margin: 10px;
 }
+ .game-cont a {
+   text-align: center;
+   
+ }
 
-.game-cont h3, .game-cont div, .game-cont img, .game-cont p, .game-cont a {
+ .game-cont > h3 {
+  text-align: center;
+ }
+
+
+  .game-cont div {
+    padding-top: 10px;
+  }
+  div img,div p, .game-cont a {
   max-width: 300px;
   width: 100%;
   height: auto;
