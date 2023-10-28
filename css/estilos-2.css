@@ -1,0 +1,70 @@
+body {
+  padding: 0%;
+  border: 0%;
+}
+
+header {
+  border: 1px solid;
+  text-align: center;
+}
+
+section h2 {
+  border: 1px solid;
+  margin: 10px;
+  text-align: center;
+}
+
+h2, a {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-cont div {
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+ .game-cont a {
+   text-align: center;
+   
+ }
+
+ .game-cont > h3 {
+  text-align: center;
+ }
+
+
+  .game-cont div {
+    padding-top: 10px;
+  }
+  div img,div p, .game-cont a {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+/* Estilos adicionales para hacer los enlaces más visibles */
+a:hover {
+  color: red;
+}
+
+footer {
+  text-align: center;
+}
