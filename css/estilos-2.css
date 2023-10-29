@@ -18,12 +18,52 @@ h2, a {
   text-align: center;
 }
 
-section {
+
+/* creacion de clase que contiene el titulo y los divs de cada juego */
+
+.contenedor-c2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contenedor-c2 h2{
+  border: 0;
+  font-size: 30px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+/* aplicacion de media */
+
+@media (max-width:800px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* el siguiente seccion no aplica - se puede eliminar, para dejar mas prolijo el codigo */
+
+/* section {
   text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+} */
+
+/* agremamos esta nueva clase para centrar el enlace compra */
+
+.game-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .game-cont div {
@@ -34,9 +74,9 @@ section {
   text-align: center;
   margin: 10px;
 }
- .game-cont a {
+
+.game-cont a {
    text-align: center;
-   
  }
 
  .game-cont > h3 {
@@ -44,10 +84,11 @@ section {
  }
 
 
-  .game-cont div {
+.game-cont div {
     padding-top: 10px;
   }
-  div img,div p, .game-cont a {
+
+div img,div p, .game-cont a {
   max-width: 300px;
   width: 100%;
   height: auto;
