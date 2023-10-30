@@ -38,6 +38,7 @@ h2, a {
 .container{
   display: flex;
   flex-direction: row;
+  
 }
 
 /* aplicacion de media */
@@ -69,10 +70,11 @@ h2, a {
 }
 
 .nintendo:hover {
-  background-color: rgb(250, 50, 35); /* Cambia el fondo al pasar el mouse sobre el elemento */
+  background-color: rgb(255, 17, 0, 0.5); /* Cambia el fondo al pasar el mouse sobre el elemento */
 }
 .play:hover {
-  background-color: rgb(56, 182, 255); /* Cambia el fondo al pasar el mouse sobre el elemento */
+  background-color: rgb(56, 182, 255,0.5); /* Cambia el fondo al pasar el mouse sobre el elemento */
+
 }
 
 
