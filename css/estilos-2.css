@@ -1,6 +1,7 @@
 body {
   padding: 0%;
   border: 0%;
+  background: linear-gradient(75deg,#0d0e0d 0% ,white  35% 65%, #0d0e0d 100%);
 }
 
 header {
@@ -21,14 +22,15 @@ h2, a {
 
 /* creacion de clase que contiene el titulo y los divs de cada juego */
 
-.contenedor-c2{
+.contenedor{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
 
-.contenedor-c2 h2{
+.contenedor h2{
   border: 0;
   font-size: 30px;
 }
@@ -47,15 +49,6 @@ h2, a {
   }
 }
 
-/* el siguiente seccion no aplica - se puede eliminar, para dejar mas prolijo el codigo */
-
-/* section {
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-} */
 
 /* agremamos esta nueva clase para centrar el enlace compra */
 
@@ -64,23 +57,42 @@ h2, a {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  border-radius: 1.3rem;
+  border: 2px solid;
+  margin: 5px;
 }
 
+.game-cont > div:hover {
+  transform: scale(1.05); /* Aplica una escala para agrandar el elemento */
+  transition: transform 1s;
+
+}
+
+.nintendo:hover {
+  background-color: rgb(250, 50, 35); /* Cambia el fondo al pasar el mouse sobre el elemento */
+}
+.play:hover {
+  background-color: rgb(56, 182, 255); /* Cambia el fondo al pasar el mouse sobre el elemento */
+}
+
+
 .game-cont div {
-  border: 2px solid;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 10px;
+
+  padding: 10px;
+  height: 90%;
+
 }
 
 .game-cont a {
    text-align: center;
+   
  }
 
  .game-cont > h3 {
   text-align: center;
+  
  }
 
 
@@ -94,6 +106,9 @@ div img,div p, .game-cont a {
   height: auto;
   text-align: center;
 }
+div img {
+  border-radius: 0.3rem;
+}
 
 a {
   text-decoration: none;
@@ -103,7 +118,8 @@ a {
 
 /* Estilos adicionales para hacer los enlaces más visibles */
 a:hover {
-  color: red;
+font-size: 20px;
+color: rgb(239, 26, 247);
 }
 
 footer {
