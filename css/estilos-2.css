@@ -1,7 +1,7 @@
 body {
-  padding: 0%;
-  border: 0%;
   background: linear-gradient(75deg,#0d0e0d 0% ,white  35% 65%, #0d0e0d 100%);
+  border: 0%;
+  padding: 0%;
 }
 
 header {
@@ -23,11 +23,10 @@ h2, a {
 /* creacion de clase que contiene el titulo y los divs de cada juego */
 
 .contenedor{
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   flex-direction: column;
-
+  justify-content: center;
 }
 
 .contenedor h2{
@@ -54,47 +53,41 @@ h2, a {
 /* agremamos esta nueva clase para centrar el enlace compra */
 
 .game-cont{
+  align-items: center;
+  border: 2px solid;
+  border-radius: 1.3rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  border-radius: 1.3rem;
-  border: 2px solid;
   margin: 5px;
+  text-align: center;
 }
 
 .game-cont > div:hover {
   transform: scale(1.05); /* Aplica una escala para agrandar el elemento */
   transition: transform 1s;
-
 }
 
 .nintendo:hover {
   background-color: rgb(255, 17, 0, 0.5); /* Cambia el fondo al pasar el mouse sobre el elemento */
 }
+
 .play:hover {
   background-color: rgb(56, 182, 255,0.5); /* Cambia el fondo al pasar el mouse sobre el elemento */
-
 }
-
 
 .game-cont div {
   display: flex;
   flex-direction: column;
-
-  padding: 10px;
   height: 90%;
-
+  padding: 10px;
 }
 
 .game-cont a {
    text-align: center;
-   
  }
 
  .game-cont > h3 {
   text-align: center;
-  
  }
 
 
@@ -102,11 +95,31 @@ h2, a {
     padding-top: 10px;
   }
 
+/* apicaccion de clase a pagina adicional mario y mortal  */
+
+.game-css2 h2{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 20px;
+    font-size: 2.5rem;
+  }
+  
+.game-css2 div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* ----------------------------------------------------------- */
+
 div img,div p, .game-cont a {
-  max-width: 300px;
-  width: 100%;
   height: auto;
+  max-width: 300px;
   text-align: center;
+  width: 100%;
 }
 div img {
   border-radius: 0.3rem;
@@ -120,8 +133,8 @@ a {
 
 /* Estilos adicionales para hacer los enlaces más visibles */
 a:hover {
-font-size: 20px;
-color: rgb(239, 26, 247);
+  font-size: 20px;
+  color: rgb(239, 26, 247);
 }
 
 footer {
