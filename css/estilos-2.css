@@ -68,7 +68,7 @@ h2, a {
 }
 
 .nintendo:hover {
-  background-color: rgb(255, 17, 0, 0.5); /* Cambia el fondo al pasar el mouse sobre el elemento */
+  background-color: rgba(255, 17, 0, 0.5); /* Cambia el fondo al pasar el mouse sobre el elemento */
 }
 
 .play:hover {
@@ -88,6 +88,7 @@ h2, a {
 
  .game-cont > h3 {
   text-align: center;
+  font-style: italic;
  }
 
 
@@ -139,4 +140,20 @@ a:hover {
 
 footer {
   text-align: center;
+}
+
+.game-image {
+  padding: 5px !important;
+}
+
+
+.p-img:hover{
+  border-radius: 10px;
+  box-shadow: 0 0 100px 0 #4CAF50;
+
+}
+
+.no-hover:hover {
+  transform: scale(1) !important ;
+  transition: transform 0s !important;
 }
